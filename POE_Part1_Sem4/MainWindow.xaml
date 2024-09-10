@@ -13,8 +13,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="50"/>
-            <RowDefinition Height="7.768"/>
-            <RowDefinition Height="42.232"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="0"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>
@@ -37,8 +37,8 @@
             <TextBox x:Name="PasswordBlock" Margin="2"></TextBox>
         </StackPanel>
 
-        <StackPanel x:Name="Submit_login" Grid.Row="2" Grid.Column="0.5" Grid.ColumnSpan="2" Margin="0,0,-15,0" Grid.RowSpan="2">
-            <Button Content="Submit" Height="25" Width="162"/>
+        <StackPanel x:Name="Submit_login" Grid.Row="2" Grid.Column="1">
+            <Button Content="Submit" Height="30" Width="150"/>
         </StackPanel>
     </Grid>
 
