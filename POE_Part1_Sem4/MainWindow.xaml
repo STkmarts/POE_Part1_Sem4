@@ -5,8 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:POE_Part1_Sem4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Login" Height="450" Width="800">
 
+
+
+    <Grid Height="150px" Width="350">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="7.768"/>
+            <RowDefinition Height="42.232"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <Label x:Name="UsernameLable" FontWeight="Bold">Username:</Label>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <TextBox x:Name="UserNameBlock" Margin="2"></TextBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Label x:Name="PasswordLable" FontWeight="Bold">Password:</Label>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBox x:Name="PasswordBlock" Margin="2"></TextBox>
+        </StackPanel>
+
+        <StackPanel x:Name="Submit_login" Grid.Row="2" Grid.Column="0.5" Grid.ColumnSpan="2" Margin="0,0,-15,0" Grid.RowSpan="2">
+            <Button Content="Submit" Height="25" Width="162"/>
+        </StackPanel>
     </Grid>
+
 </Window>
+
