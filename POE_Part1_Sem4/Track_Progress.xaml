@@ -6,7 +6,26 @@
         xmlns:local="clr-namespace:POE_Part1_Sem4"
         mc:Ignorable="d"
         Title="Track_Progress" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Width="700" Height="400">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="350"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Claim Progress" FontSize="50" FontWeight="Bold" Grid.ColumnSpan="2" Margin="0,0,3215,10"/>
+
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Label Content="Current Progress on the Claim" FontSize="15" FontWeight="Bold"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0">
+            <Label Content="In Progress" FontSize="12" FontWeight="SemiBold"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            
+        </StackPanel>
     </Grid>
 </Window>
