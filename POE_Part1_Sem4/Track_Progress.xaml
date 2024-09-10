@@ -28,6 +28,6 @@
             <ProgressBar Width="150" Height="30" />
         </StackPanel>
 
-            <Label Content="Claim Progress" FontSize="40" FontWeight="Bold" Grid.ColumnSpan="2" Margin="0,0,3215,10"/>
+        <Label VerticalAlignment="Top" Content="Claim Progress" FontSize="40" FontWeight="Bold" />
     </Grid>
 </Window>
