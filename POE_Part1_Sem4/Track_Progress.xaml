@@ -16,7 +16,7 @@
             <ColumnDefinition Width="350"/>
             <ColumnDefinition Width="350"/>
         </Grid.ColumnDefinitions>
-        <Label Content="Claim Progress" FontSize="50" FontWeight="Bold" Grid.ColumnSpan="2" Margin="0,0,3215,10"/>
+        
 
         <StackPanel Grid.Row="1" Grid.Column="0">
             <Label Content="Current Progress on the Claim" FontSize="15" FontWeight="Bold"/>
@@ -25,7 +25,9 @@
             <Label Content="In Progress" FontSize="12" FontWeight="SemiBold"/>
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="1">
-            
+            <ProgressBar Width="150" Height="30" />
         </StackPanel>
+
+            <Label Content="Claim Progress" FontSize="40" FontWeight="Bold" Grid.ColumnSpan="2" Margin="0,0,3215,10"/>
     </Grid>
 </Window>
